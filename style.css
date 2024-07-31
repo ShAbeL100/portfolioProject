@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-color: #272838;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-block: 15px;
+}
+header h1{
+    padding-inline: 50px;
+    font-weight: bold;
+}
+header h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+header h1 a:hover{
+    color: #347FC4;
+    transition: 0.5s;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding-inline: 200px;
+    padding-top: 20px;
+}
+header nav ul li{
+    margin-inline: 25px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+header nav ul li a:hover{
+    color: #347FC4;
+    transition: 0.5s;
+}
+section.about{
+    background-color:#7D6B91;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+section.about .content{
+    background-color: #7D6B91;
+    padding-block: 20px;
+    padding-inline: 50px;
+    width: 40%;
+}
+section.about .content p{
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+section.about .content h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+section.about img{
+    width: 45%;
+    height: 500px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+section.about .content button{
+    background-color: #272838;
+    border: none;
+    padding-inline: 50px;
+    padding-block: 20px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+section.about .content button:hover{
+    color: #347FC4;
+    transition: 0.5s;
+}
+section.about .content a{
+    margin-inline: 10px;
+}
+section.projects{
+    background-color: #7D6B91;
+    color: #fff;
+}
+section.projects h2{
+    padding-inline: 50px;
+    padding-bottom: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #272838;
+}
+section.projects .project{
+    padding-inline: 50px;
+    padding-block: 20px;
+}
+
+section.projects .project .Project-box{
+    border: 1px solid #272838;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    padding-inline: 40px;
+}
+section.projects .project .Project-box h3{
+    font-size: 35px;
+    font-weight: bold;
+    padding-inline: 30px;
+    padding-top: 25px;
+    color:#272838;
+}
+section.projects .project .Project-box h5{
+    padding-inline: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+section.projects .project .Project-box p{
+    padding-inline: 30px;
+    font-weight: bold;
+}
+section.contact{
+    background-color: #7D6B91;
+    font-weight: bold;
+}
+
+section.contact h2{
+    padding-inline: 50px;
+    padding-block: 50px;
+    font-size: 60px;
+    font-weight: bold;
+}
+section.contact .container .form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.contact .container .form fieldset{
+    width: 50%;
+    background-color: #5D536B;
+    padding: 50px;
+    border-radius: 50px;
+    margin-left: -200px;
+    margin-block: 50px;
+}
+section.contact .container .form fieldset legend{
+    font-size: 50px;
+    font-weight: bold;
+    color: #7D6B91;
+}
+
+section.contact .container .form fieldset #contact-form input{
+    border-color: #272838;
+}
+section.contact .container .form fieldset #contact-form textarea{
+    border-color: #272838;
+}
+section.contact .container .form fieldset #contact-form button{
+    background-color: #272838;
+    border: none;
+    padding-inline: 50px;
+    padding-block: 20px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+section.contact .container .form .content{
+    margin-right: 200px;
+}
+section.contact .container .form fieldset #contact-form button:hover{
+    color: #347FC4;
+    transition: 0.5s;
+}
+section.contact .container .form .content .info{
+    display: flex;
+    margin-bottom: 50px;
+}
+section.contact .container .form .content .info div{
+    margin-inline: 30px;
+}
+
+footer{
+    background-color: #272838;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+footer h6{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 24px;
+    color: #fff;
+}
